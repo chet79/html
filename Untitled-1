@@ -1,0 +1,4 @@
+posts.*, categories.name
+                FROM posts 
+                INNER JOIN categories
+                ON posts.category=categories.name
